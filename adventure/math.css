@@ -1,0 +1,24 @@
+body{
+font-family: 'Luckiest Guy', cursive;font-size:50px;color:white;background-image: url("mathbackground.jpg");background-repeat:no-repeat ;
+background-size:100% 100%;
+background-attachment: fixed;}
+input,button{font-family: 'Josefin Sans', sans-serif;border-radius: 8px;color: #fe8270;font-size: 30px;}
+.title{width:100%;height:100%;position:absolute;right:0;bottom:0;background-image: url("mathbackground.jpg");background-repeat:no-repeat ;
+background-size:100% 100%;
+background-attachment: fixed;z-index:3;}
+#ti{font-family: 'Josefin Sans', sans-serif;font-family: 'Luckiest Guy', cursive;}
+.title a{
+  text-decoration: none;
+  color: 	#FFBB00;
+}
+button{
+  text-align: center;
+  border-radius: 8px;
+  background-color: white;
+  color: #FFBB00;
+  font-size: 200px;
+}
+button:hover{
+  background-color: #4CAF50;
+  color: white;
+}

@@ -1,0 +1,49 @@
+body {
+  background-image: url("rock_background.jpg");
+  background-repeat:no-repeat ;
+  background-size:100% 100%;
+  background-attachment: fixed;"
+  z-index: -1;
+  font-family: 'Ruslan Display', cursive;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Righteous', cursive;
+  font-size: 30px;
+
+}
+
+.a{position:absolute;left:750px;top:450px;  text-decoration: none;
+  color: #fff;}
+.b{position:absolute;left:750px;top:170px;  text-decoration: none;
+  color: #fff;}
+
+p{
+  text-align: center;
+  font-size: 40px;
+}
+
+.buttons{
+  text-align: center;
+}
+
+button{
+  border-radius: 8px;
+  background-color: white;
+  color:green;
+  font-size: 30px;
+  justify-content: center;
+}
+button:hover {
+background-color: #4CAF50;
+color: white;
+}
+.start{
+  text-align: center;
+  text-decoration: underline;
+}
+.start a{
+  text-decoration: none;
+  color: 	#FFBB00;
+  font-family: 'Hanalei Fill', cursive;
+  font-size: 50px;
+  text-shadow:-1px 0 black,0 1px black,1px 0 black,0 -1px black;
+}

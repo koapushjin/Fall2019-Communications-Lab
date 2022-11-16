@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>bar</title>
+    <link href="https://fonts.googleapis.com/css?family=Spicy+Rice&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+<!-- 小图可点音频     -->
+    <audio id="player1">
+      <source src="audio/shaker.mp3" type="audio/mp3">
+    </audio>
+    <audio id="player2">
+      <source src="audio/cocktail.mp3" type="audio/mp3">
+    </audio>
+    <audio id="player3">
+      <source src="audio/juicer.mp3" type="audio/mp3">
+    </audio>
+    <audio id="player4">
+      <source src="audio/dice.mp3" type="audio/mp3">
+    </audio>
+    <audio id="player5">
+      <source src="audio/cheers.mp3" type="audio/mp3">
+    </audio>
+    <audio id="player6">
+      <source src="audio/beer.mp3" type="audio/mp3">
+    </audio>
+    <audio id="player10">
+      <source src="audio/chair.mp3" type="audio/mp3">
+    </audio>
+    <audio id="player7">
+      <source src="audio/drum.mp3" type="audio/mp3">
+    </audio>
+    <audio id="player8">
+      <source src="audio/sax.mp3" type="audio/mp3">
+    </audio>
+    <audio id="player9">
+      <source src="audio/piano.mp3" type="audio/mp3">
+    </audio>
+    <audio id="player11">
+      <source src="audio/light.mp3" type="audio/mp3">
+    </audio>
+<!-- 下面是背景音button部分 -->
+    <audio id="playerMusic">
+      <source src="audio/music.mp3" type="audio/mp3">
+    </audio>
+    <audio id="playerA">
+      <source src="audio/start.mp3" type="audio/mp3">
+    </audio>
+    <audio id="playerB">
+      <source src="audio/barcounterchat.mp3" type="audio/mp3">
+    </audio>
+    <audio id="playerC">
+      <source src="audio/loudchat.mp3" type="audio/mp3">
+    </audio>
+    <audio id="playerD">
+      <source src="audio/loudchatgoesdown.mp3" type="audio/mp3">
+    </audio>
+
+<!-- 下面是instructions -->
+
+    <div id="bar">
+      <div id="instructions">
+          <div id="hint1">
+            <p class="hintsPointer" id="start" onclick="playA()"> Follow Steps Here While Scrolling <br> Explore with Your Mouse <br> CLICK  &  LISTEN ! </p>
+          </div>
+          <div id="hint2">
+            <p class="hintsPointer" id="barcounterchat" onclick="playB()"><br><br><br> Get A Drink First<br><br><br> </p>
+          </div>
+          <div id="hintExtra">
+            <p id="Leon"><br> Btw <br> Looks like Leon <br>Doesn't He?<br> </p>
+          </div>
+          <div id="hint3">
+            <p class="hintsPointer" id="loudchat" onclick="playC()"><br><br><br> Why Not Have A Seat Bro? <br><br><br><br> </p>
+          </div>
+          <div id="hint4">
+            <p class="hintsPointer" id="loudchatgoesdown" onclick="playD()"><br><br> Here Comes The Music <br><br><br><br><br> </p>
+          </div>
+          <div id="hint5">
+            <p id="switchofflight"><br><br> Switch Off The Light <br> Enjoy Ur Goooooood Night <br> </p>
+          </div>
+      </div>
+
+       <img src="images/bar.jpeg" id="background" alt="">
+       <!-- 背景图在div里面 -->
+       <div class="pointer" id="shaker" onclick="play1()"><img src="images/shaker.png" alt=""></div>
+       <div class="pointer" id="cocktail" onclick="play2()"><img src="images/cocktail.png" alt=""></div>
+       <div class="pointer" id="juicer" onclick="play3()"><img src="images/juicer.png" alt=""></div>
+       <div class="pointer" id="dice" onclick="play4()"><img src="images/dice.png" alt=""></div>
+       <div class="pointer" id="cheers" onclick="play5()"><img src="images/cheers.png" alt=""></div>
+       <div class="pointer" id="beer" onclick="play6()"><img src="images/beer.png" alt=""></div>
+       <div class="pointer" id="chair" onclick="play10()"><img src="images/chair.png" alt=""></div>
+       <div class="pointer" id="drum" onclick="play7()"><img src="images/drum.png" alt=""></div>
+       <div class="pointer" id="sax" onclick="play8()"><img src="images/sax.png" alt=""></div>
+       <div class="pointer" id="piano" onclick="play9()"><img src="images/piano.png" alt=""></div>
+       <div class="pointerLight" id="light" onclick="play11()"><img src="images/light.png" alt=""></div>
+    </div>
+
+    <img src="images/hole.png" id="hole" alt="">
+<!-- hole在div外面 -->
+
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>

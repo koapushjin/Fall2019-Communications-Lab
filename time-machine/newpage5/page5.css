@@ -1,0 +1,166 @@
+
+* { margin: 0; padding: 0; }
+body { font: 14px Georgia, serif; background-image: url('img/bg.jpg');background-repeat: no-repeat;background-attachment: fixed;
+  background-size: cover; }
+#page-wrap { width: 1000px; margin: 0 auto; text-align: center;}
+img { vertical-align: middle; }
+h2 { opacity: 0; font-size: 45px; font-family: 'Indie Flower', cursive;font-weight: normal; margin: 30px 0 10px;	animation-name: move;animation-duration: 1.2s; animation-iteration-count: infinite; animation-direction: alternate; animation-timing-function: linear;}
+h1 { font-size: 36px; font-weight: normal; margin: 30px 0 10px; }
+input[type=text] { background: transparent;border:none; padding: 3px; vertical-align: middle; font-size: 100px;font-family: 'Indie Flower', cursive; }
+label{font-size: 45px; font-family: 'Indie Flower', cursive; }
+#whale { width: 120px; }
+
+
+@keyframes move{
+	from{
+		top: 0%;
+		opacity: 0;
+	}
+	from{
+		top: 10%;
+		opacity: 1;
+	}
+}
+
+@keyframes shake {
+	0% { transform: translate(1px, 1px) rotate(0deg); }
+	10% { transform: translate(-1px, -1px) rotate(-1deg); }
+	20% { transform: translate(-1px, 0px) rotate(1deg); }
+	30% { transform: translate(1px, 1px) rotate(0deg); }
+	40% { transform: translate(1px, -1px) rotate(1deg); }
+	50% { transform: translate(-1px, 1px) rotate(-1deg); }
+	60% { transform: translate(-1px, 1px) rotate(0deg); }
+	70% { transform: translate(1px, 1px) rotate(-1deg); }
+	80% { transform: translate(-1px, -1px) rotate(1deg); }
+	90% { transform: translate(1px, 1px) rotate(0deg); }
+	100% { transform: translate(1px, -1px) rotate(-1deg); }
+}
+#container1 {
+  position: absolute;
+  width: 20%;
+  left:20px;
+  top:350px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#overlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #242424;
+  cursor: pointer;
+}
+
+#container1:hover #overlay1 {
+  opacity: 0.8;
+}
+
+#container2 {
+  position: absolute;
+  width: 20%;
+  left:450px;
+  top:350px;
+}
+
+
+#overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #242424;
+  cursor: pointer;
+}
+
+#container2:hover #overlay2 {
+  opacity: 0.8;
+}
+
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+#container3 {
+  position: absolute;
+  width: 20%;
+  left:880px;
+  top:350px;
+}
+#overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #242424;
+  cursor: pointer;
+}
+
+#container3:hover #overlay3 {
+  opacity: 0.8;
+}
+
+#container4 {
+  position: absolute;
+  width: 20%;
+  left:1310px;
+  top:350px;
+}
+
+#overlay4 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #242424;
+  cursor: pointer;
+}
+
+#container4:hover #overlay4 {
+  opacity: 0.8;
+}
+
+.text {
+  color: white;
+  font-size: 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Codystar', cursive;
+font-family: 'Righteous', cursive;
+}
+a{
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,70 @@
+body {
+  background-image: url("rulebackground.png");
+  background-repeat:no-repeat ;
+  background-size:100% 100%;
+  background-attachment: fixed;
+  z-index: -1;
+}
+
+.header {
+  text-align: center;
+  text-decoration: underline;
+  padding: 0px;
+  color: white;
+  font-family: 'Hanalei Fill', cursive;
+  font-size: 70px;
+  text-shadow:-1px 0 black,0 1px black,1px 0 black,0 -1px black;
+}
+
+#icons{
+  padding: 0;
+  margin:0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+#icon{
+  padding: 0;
+  margin:0 auto;
+  display: inline;
+  text-align: center;
+  margin: auto;
+}
+
+p{
+  text-align: center;
+}
+
+a{
+  color: 	#FFBB00;
+}
+
+.name{
+  text-align: center;
+  padding: 0px;
+  color: white;
+  font-size: 40px;
+  font-family: 'Hanalei Fill', cursive;
+  text-shadow:-1px 0 black,0 1px black,1px 0 black,0 -1px black;
+}
+
+.rules {
+  text-align: center;
+  padding: 0px;
+  color: white;
+  font-family: 'Hanalei Fill', cursive;
+  font-size: 50px;
+  text-shadow: -1px 0 black,0 1px black,1px 0 black,0 -1px black;
+}
+
+.start{
+  text-align: center;
+}
+
+.start {
+  color: 	#FFBB00;
+  /* padding: 0px; */
+  font-family: 'Hanalei Fill', cursive;
+  font-size: 50px;
+  text-shadow:-1px 0 black,0 1px black,1px 0 black,0 -1px black;
+}

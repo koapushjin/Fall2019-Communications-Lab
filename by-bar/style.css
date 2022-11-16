@@ -1,0 +1,203 @@
+body{
+  background-color: black;
+  margin: 0px;
+  overflow-y:hidden;
+  overflow: hidden;
+}
+
+#background{
+  margin:0px;
+}
+
+p{
+  font-family: 'Spicy Rice', cursive;
+  font-size: 30px
+}
+
+#instructions{
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 30px;
+  height: 225px;
+  color:white;
+}
+
+.hintsPointer{
+  cursor: pointer;
+  display:inline-flex;
+}
+
+#hint1{
+    display:inline-flex;
+    position: absolute;
+    margin-left: 15px;
+    width: 500px;
+}
+#hint2{
+    display:inline-flex;
+    position: absolute;
+    margin-left: 360px;
+    width: 300px;
+
+}
+#hint3{
+    display:inline-flex;
+    position: absolute;
+    margin-left:1800px;
+    width: 400px;
+}
+#hint4{
+    display:inline-flex;
+    position: absolute;
+    margin-left: 3400px;
+    width: 400px;
+}
+#hint5{
+    display:inline-flex;
+    position: absolute;
+    margin-left: 4400px;
+    width: 400px;
+}
+#hintExtra{
+    display:inline-flex;
+    position: absolute;
+    margin-left: 1100px;
+    color:orange;
+    width:200px;
+}
+
+#bar{
+margin-top:15px;
+position:relative;
+/* leon tries */
+width:100%;
+overflow: scroll;
+}
+
+.pointer{
+  cursor:pointer;
+  outline:none;
+  transition: all 0.15s;
+}
+
+.pointer:hover{
+  transform: scale(1.15);
+}
+
+.pointerLight{
+  cursor:pointer;
+  outline:none;
+  transition: all 0.2s;
+}
+
+.pointerLight:hover{
+  transform: scale(1.3);
+}
+
+#hole{
+  pointer-events: none;
+  position: absolute;
+  width:5000px;
+  left:0px;
+  top:0px;
+}
+
+#shaker{
+  height: 75px;
+  width: 100px;
+  /* background-color: red; */
+  position: absolute;
+  left: 560px;
+  top: 390px;
+}
+/* change!! */
+
+#cocktail{
+  height: 65px;
+  width: 150px;
+  /* background-color: red; */
+  position: absolute;
+  left: 933px;
+  top: 415px;
+}
+
+#juicer{
+  height: 105px;
+  width: 80px;
+  /* background-color: red; */
+  position: absolute;
+  left:1420px;
+  top: 385px;
+}
+
+#dice{
+  height: 100px;
+  width: 200px;
+  /* background-color: red; */
+  position: absolute;
+  left:2185px;
+  top: 535px;
+}
+
+#cheers{
+  height: 100px;
+  width: 200px;
+  /* background-color: red; */
+  position: absolute;
+  left:2355px;
+  top: 505px;
+}
+
+#beer{
+  height: 100px;
+  width: 200px;
+  /* background-color: red; */
+  position: absolute;
+  left:2960px;
+  top: 445px;
+}
+
+#chair{
+  height: 100px;
+  width: 200px;
+  /* background-color: red; */
+  position: absolute;
+  left:2820px;
+  top: 605px;
+}
+
+#drum{
+  height: 245px;
+  width: 295px;
+  /* background-color: red; */
+  position: absolute;
+  left:3550px;
+  top: 465px;
+}
+
+#sax{
+  height: 160px;
+  width: 170px;
+  /* background-color: red; */
+  position: absolute;
+  left:3835px;
+  top: 415px;
+}
+
+#piano{
+  height: 330px;
+  width: 405px;
+  /* background-color: red; */
+  position: absolute;
+  left:4015px;
+  top: 445px;
+}
+
+#light{
+  height: 30px;
+  width: 40px;
+  /* background-color: red; */
+  position: absolute;
+  left:4535px;
+  top: 230px;
+}

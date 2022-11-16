@@ -1,0 +1,43 @@
+body {
+  background-image: url("background1.jpg");
+  background-repeat:no-repeat ;
+  background-size:100% 100%;
+  background-attachment: fixed;"
+  z-index: -1;
+}
+.header {
+  text-align: center;
+  padding: 0px;
+  color: white;
+  font-family: 'Hanalei Fill', cursive;
+  font-size: 75px;
+  text-shadow:-1px 0 black,0 1px black,1px 0 black,0 -1px black;
+}
+
+.start{
+  text-align: center;
+}
+
+.start a{
+  text-decoration: none;
+  color: 	#FFBB00;
+  /* padding: 0px; */
+  font-family: 'Hanalei Fill', cursive;
+  font-size: 50px;
+  text-shadow:-1px 0 black,0 1px black,1px 0 black,0 -1px black;
+}
+.playername {
+  margin-left: 600px;
+  line-height: 150px;
+}
+button{
+  text-align: center;
+  border-radius: 8px;
+  background-color: white;
+  color: #FFBB00;
+  font-size: 20px;
+}
+button:hover{
+  background-color: #4CAF50;
+  color: white;
+}

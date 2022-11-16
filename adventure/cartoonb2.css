@@ -1,0 +1,39 @@
+body {
+  background-image: url("path.jpg");
+  background-repeat:no-repeat ;
+  background-size:100% 100%;
+  background-attachment: fixed;"
+  z-index: -1;
+}
+.pic0
+  {
+  position:absolute;
+  left:0px;
+  top:350px;
+  }
+  .pic1
+    {
+    position:absolute;
+    left:600px;
+    top:300px;
+    }
+    .pic2
+      {
+      position:absolute;
+      left:1100px;
+      top:240px;
+      }
+
+    button{
+      text-align: center;
+      border-radius: 8px;
+      background-color: white;
+      color: #FFBB00;
+      font-size: 40px;
+      justify-content: center;
+
+    }
+    button:hover{
+      background-color: #4CAF50;
+      color: white;
+    }

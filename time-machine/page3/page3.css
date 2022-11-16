@@ -1,0 +1,258 @@
+
+body {
+  /* font-family: Arial */
+  font-family: 'Droid Serif', serif;
+font-size: 14px;
+color: #060606;
+/* background-repeat:no-repeat;
+background-image: url("browser1.png");
+background-size:100% 100%;
+background-attachment: absolute; */
+margin:3% 4.2% 3% 4.2%
+}
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.checkbox{
+  text-align: right;
+  font-size: 19px;
+  color: #666;
+  padding-right: 10px;
+}
+/* The browser window */
+.container {
+  border: 3px solid #f1f1f1;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+/* Container for columns and the top "toolbar" */
+.row {
+  padding: 10px;
+  background: #f1f1f1;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+/* Create three unequal columns that floats next to each other */
+.columnoriginal {
+  float: left;
+}
+
+.leftoriginal {
+  width: 15%;
+}
+
+.rightoriginal {
+  width: 10%;
+}
+
+.middleoriginal {
+  width: 75%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Three dots */
+.dot {
+  margin-top: 4px;
+  height: 12px;
+  width: 12px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* Style the input field */
+input[type=text] {
+  width: 100%;
+  border-radius: 3px;
+  border: none;
+  background-color: white;
+  margin-top: -8px;
+  height: 25px;
+  color: #666;
+  padding: 5px;
+}
+
+/* Three bars (hamburger menu) */
+.bar {
+  width: 17px;
+  height: 3px;
+  background-color: #aaa;
+  margin: 3px 0;
+  display: block;
+}
+
+/* Page content */
+#content {
+  padding: 10px;
+}
+
+
+
+header{
+      font-family: 'UnifrakturCook', cursive;
+      /* font-family: 'UnifrakturMaguntia', cursive; */
+      font-weight: 900;
+      font-size: 100px;
+      text-align: center;
+      text-transform: uppercase;
+      /* display: inline-block; */
+      line-height: 72px;
+      margin-bottom: 30px;
+      margin-top: 30px
+}
+p{
+    vertical-align:top;
+    margin:5 5 5 5;
+    color: #555555;
+    font-size:20px
+
+}
+
+#button{
+  font-size:20px;
+}
+
+#alert {
+  position:fixed;
+  width:100%;
+  /* flex-wrap: nowrap; */
+  left: 0;
+  bottom:0;
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  height:320px;
+  font-size: 40px;
+  text-align: center;
+  z-index: 2;
+
+
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+.head{
+  /* text-align: center; */
+}
+.date{
+  /* vertical-align: baseline; */
+  padding-bottom: 7px;
+  margin-top: 10px;
+  padding-left: 10px;
+  /* margin-bottom: 10px; */
+  display: inline-block;
+  width:48%;
+  text-align: left;
+  /* border-bottom: 1.5px groove grey; */
+  font-size: 23px;
+}
+
+.subhead{
+  /* border-style:groove; */
+  vertical-align: top;
+  border-bottom:5px double #2f2f2f;
+  text-align: center;
+  width:100%
+
+}
+.sub{
+  display: inline-block;
+  width:23%;
+  padding:2 2 2 2;
+  font-family: 'Viga', sans-serif;
+  font-size:27px;
+  margin:5 5 5 5;
+}
+.sub + .sub{
+  border-left:1px solid grey
+}
+.subheadtext{
+  font-size: 16px;
+}
+
+.left{
+  vertical-align:top;
+  display:inline-block;
+      padding-left: 10px;
+  padding:10 10 10 10;
+  width:73.1%
+}
+.left + .right{
+  border-left:1px solid grey
+}
+.right{
+  /* position:fixed; */
+  vertical-align:top;
+  display:inline-block;
+      padding-left: 10px;
+  padding:25 10 10 10;
+  width:25%
+}
+.smallleft{
+    /* position:fixed; */
+    vertical-align:top;
+
+  display: inline-block;
+  padding:10 10 10 10;
+  width:35%
+}
+.smallright{
+    /* position:fixed; */
+  display: inline-block;
+      padding-left: 20px;
+  padding:10 5 10 5;
+  width:60%;
+}
+.small0{
+    /* position:fixed; */
+    vertical-align:top;
+
+  display: inline-block;
+  padding:10 5 10 5;
+  width:30%;
+}
+.middle{
+  vertical-align:top;
+  border-top: 1px solid #2f2f2f;
+
+}
+.rights{
+  display: block;
+
+  width:100%;
+}
+.rights + .rights{
+  border-top:1px solid grey
+}
+.smalltitle{
+  color:#1f1f1f;
+  font-family: 'Calistoga', cursive;
+  size:34px
+}
